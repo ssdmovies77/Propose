@@ -144,7 +144,7 @@
       <div style="font-size:24px;font-weight:700;margin-bottom:8px;">Darshna, will you be mine? 💍</div>
       <div style="margin-top:12px;">
         <button class="primary" id="yesBtn">Yes 💖</button>
-        <button class="secondary" id="maybeBtn"> No 🙂‍↔️...</button>
+        <button class="secondary" id="noLoveBtn">No 💔</button>
       </div>
     </div>
   </div>
@@ -156,7 +156,7 @@
   const revealBox = document.getElementById('revealBox');
   const noBtn = document.getElementById('noBtn');
   const yesBtn = document.getElementById('yesBtn');
-  const maybeBtn = document.getElementById('maybeBtn');
+  const noLoveBtn = document.getElementById('noLoveBtn');
 
   revealBtn.addEventListener('click', ()=>{
     revealBox.style.display = 'block';
@@ -172,8 +172,8 @@
     launchConfetti(120);
   });
 
-  maybeBtn.addEventListener('click', ()=>{
-    alert'koi baat nhi ... I respect your Decision.');
+  noLoveBtn.addEventListener('click', ()=>{
+    alert('Koi baat nahi, I respect your decision 💫');
   });
 
   function launchConfetti(count){
@@ -201,5 +201,3 @@
 
 </body>
 </html>
-
-
